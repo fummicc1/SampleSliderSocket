@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D350CCCA221E75EE0047A9C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350CCC9221E75EE0047A9C8 /* AppDelegate.swift */; };
+		D350CCCC221E75EE0047A9C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350CCCB221E75EE0047A9C8 /* ViewController.swift */; };
+		D350CCCF221E75EE0047A9C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D350CCCD221E75EE0047A9C8 /* Main.storyboard */; };
+		D350CCD1221E75EF0047A9C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D350CCD0221E75EF0047A9C8 /* Assets.xcassets */; };
+		D350CCD4221E75EF0047A9C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D350CCD2221E75EF0047A9C8 /* LaunchScreen.storyboard */; };
+		D350CCDF221E75EF0047A9C8 /* SampleRTCSlideBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350CCDE221E75EF0047A9C8 /* SampleRTCSlideBarTests.swift */; };
+		D350CCEA221E75EF0047A9C8 /* SampleRTCSlideBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350CCE9221E75EF0047A9C8 /* SampleRTCSlideBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D350CCDB221E75EF0047A9C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D350CCBE221E75EE0047A9C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D350CCC5221E75EE0047A9C8;
+			remoteInfo = SampleRTCSlideBar;
+		};
+		D350CCE6221E75EF0047A9C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D350CCBE221E75EE0047A9C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D350CCC5221E75EE0047A9C8;
+			remoteInfo = SampleRTCSlideBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D350CCC6221E75EE0047A9C8 /* SampleRTCSlideBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleRTCSlideBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D350CCC9221E75EE0047A9C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D350CCCB221E75EE0047A9C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D350CCCE221E75EE0047A9C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D350CCD0221E75EF0047A9C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D350CCD3221E75EF0047A9C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D350CCD5221E75EF0047A9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D350CCDA221E75EF0047A9C8 /* SampleRTCSlideBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleRTCSlideBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D350CCDE221E75EF0047A9C8 /* SampleRTCSlideBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRTCSlideBarTests.swift; sourceTree = "<group>"; };
+		D350CCE0221E75EF0047A9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D350CCE5221E75EF0047A9C8 /* SampleRTCSlideBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleRTCSlideBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D350CCE9221E75EF0047A9C8 /* SampleRTCSlideBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRTCSlideBarUITests.swift; sourceTree = "<group>"; };
+		D350CCEB221E75EF0047A9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D350CCC3221E75EE0047A9C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D350CCD7221E75EF0047A9C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D350CCE2221E75EF0047A9C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D350CCBD221E75EE0047A9C8 = {
+			isa = PBXGroup;
+			children = (
+				D350CCC8221E75EE0047A9C8 /* SampleRTCSlideBar */,
+				D350CCDD221E75EF0047A9C8 /* SampleRTCSlideBarTests */,
+				D350CCE8221E75EF0047A9C8 /* SampleRTCSlideBarUITests */,
+				D350CCC7221E75EE0047A9C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D350CCC7221E75EE0047A9C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D350CCC6221E75EE0047A9C8 /* SampleRTCSlideBar.app */,
+				D350CCDA221E75EF0047A9C8 /* SampleRTCSlideBarTests.xctest */,
+				D350CCE5221E75EF0047A9C8 /* SampleRTCSlideBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D350CCC8221E75EE0047A9C8 /* SampleRTCSlideBar */ = {
+			isa = PBXGroup;
+			children = (
+				D350CCC9221E75EE0047A9C8 /* AppDelegate.swift */,
+				D350CCCB221E75EE0047A9C8 /* ViewController.swift */,
+				D350CCCD221E75EE0047A9C8 /* Main.storyboard */,
+				D350CCD0221E75EF0047A9C8 /* Assets.xcassets */,
+				D350CCD2221E75EF0047A9C8 /* LaunchScreen.storyboard */,
+				D350CCD5221E75EF0047A9C8 /* Info.plist */,
+			);
+			path = SampleRTCSlideBar;
+			sourceTree = "<group>";
+		};
+		D350CCDD221E75EF0047A9C8 /* SampleRTCSlideBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D350CCDE221E75EF0047A9C8 /* SampleRTCSlideBarTests.swift */,
+				D350CCE0221E75EF0047A9C8 /* Info.plist */,
+			);
+			path = SampleRTCSlideBarTests;
+			sourceTree = "<group>";
+		};
+		D350CCE8221E75EF0047A9C8 /* SampleRTCSlideBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D350CCE9221E75EF0047A9C8 /* SampleRTCSlideBarUITests.swift */,
+				D350CCEB221E75EF0047A9C8 /* Info.plist */,
+			);
+			path = SampleRTCSlideBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D350CCC5221E75EE0047A9C8 /* SampleRTCSlideBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D350CCEE221E75EF0047A9C8 /* Build configuration list for PBXNativeTarget "SampleRTCSlideBar" */;
+			buildPhases = (
+				D350CCC2221E75EE0047A9C8 /* Sources */,
+				D350CCC3221E75EE0047A9C8 /* Frameworks */,
+				D350CCC4221E75EE0047A9C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleRTCSlideBar;
+			productName = SampleRTCSlideBar;
+			productReference = D350CCC6221E75EE0047A9C8 /* SampleRTCSlideBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D350CCD9221E75EF0047A9C8 /* SampleRTCSlideBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D350CCF1221E75EF0047A9C8 /* Build configuration list for PBXNativeTarget "SampleRTCSlideBarTests" */;
+			buildPhases = (
+				D350CCD6221E75EF0047A9C8 /* Sources */,
+				D350CCD7221E75EF0047A9C8 /* Frameworks */,
+				D350CCD8221E75EF0047A9C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D350CCDC221E75EF0047A9C8 /* PBXTargetDependency */,
+			);
+			name = SampleRTCSlideBarTests;
+			productName = SampleRTCSlideBarTests;
+			productReference = D350CCDA221E75EF0047A9C8 /* SampleRTCSlideBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D350CCE4221E75EF0047A9C8 /* SampleRTCSlideBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D350CCF4221E75EF0047A9C8 /* Build configuration list for PBXNativeTarget "SampleRTCSlideBarUITests" */;
+			buildPhases = (
+				D350CCE1221E75EF0047A9C8 /* Sources */,
+				D350CCE2221E75EF0047A9C8 /* Frameworks */,
+				D350CCE3221E75EF0047A9C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D350CCE7221E75EF0047A9C8 /* PBXTargetDependency */,
+			);
+			name = SampleRTCSlideBarUITests;
+			productName = SampleRTCSlideBarUITests;
+			productReference = D350CCE5221E75EF0047A9C8 /* SampleRTCSlideBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D350CCBE221E75EE0047A9C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Fumiya Tanaka";
+				TargetAttributes = {
+					D350CCC5221E75EE0047A9C8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D350CCD9221E75EF0047A9C8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D350CCC5221E75EE0047A9C8;
+					};
+					D350CCE4221E75EF0047A9C8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D350CCC5221E75EE0047A9C8;
+					};
+				};
+			};
+			buildConfigurationList = D350CCC1221E75EE0047A9C8 /* Build configuration list for PBXProject "SampleRTCSlideBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D350CCBD221E75EE0047A9C8;
+			productRefGroup = D350CCC7221E75EE0047A9C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D350CCC5221E75EE0047A9C8 /* SampleRTCSlideBar */,
+				D350CCD9221E75EF0047A9C8 /* SampleRTCSlideBarTests */,
+				D350CCE4221E75EF0047A9C8 /* SampleRTCSlideBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D350CCC4221E75EE0047A9C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D350CCD4221E75EF0047A9C8 /* LaunchScreen.storyboard in Resources */,
+				D350CCD1221E75EF0047A9C8 /* Assets.xcassets in Resources */,
+				D350CCCF221E75EE0047A9C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D350CCD8221E75EF0047A9C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D350CCE3221E75EF0047A9C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D350CCC2221E75EE0047A9C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D350CCCC221E75EE0047A9C8 /* ViewController.swift in Sources */,
+				D350CCCA221E75EE0047A9C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D350CCD6221E75EF0047A9C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D350CCDF221E75EF0047A9C8 /* SampleRTCSlideBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D350CCE1221E75EF0047A9C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D350CCEA221E75EF0047A9C8 /* SampleRTCSlideBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D350CCDC221E75EF0047A9C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D350CCC5221E75EE0047A9C8 /* SampleRTCSlideBar */;
+			targetProxy = D350CCDB221E75EF0047A9C8 /* PBXContainerItemProxy */;
+		};
+		D350CCE7221E75EF0047A9C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D350CCC5221E75EE0047A9C8 /* SampleRTCSlideBar */;
+			targetProxy = D350CCE6221E75EF0047A9C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D350CCCD221E75EE0047A9C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D350CCCE221E75EE0047A9C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D350CCD2221E75EF0047A9C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D350CCD3221E75EF0047A9C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D350CCEC221E75EF0047A9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D350CCED221E75EF0047A9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D350CCEF221E75EF0047A9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
+				INFOPLIST_FILE = SampleRTCSlideBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fumiya.SampleRTCSlideBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D350CCF0221E75EF0047A9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
+				INFOPLIST_FILE = SampleRTCSlideBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fumiya.SampleRTCSlideBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D350CCF2221E75EF0047A9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
+				INFOPLIST_FILE = SampleRTCSlideBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fumiya.SampleRTCSlideBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleRTCSlideBar.app/SampleRTCSlideBar";
+			};
+			name = Debug;
+		};
+		D350CCF3221E75EF0047A9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
+				INFOPLIST_FILE = SampleRTCSlideBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fumiya.SampleRTCSlideBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleRTCSlideBar.app/SampleRTCSlideBar";
+			};
+			name = Release;
+		};
+		D350CCF5221E75EF0047A9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
+				INFOPLIST_FILE = SampleRTCSlideBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fumiya.SampleRTCSlideBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleRTCSlideBar;
+			};
+			name = Debug;
+		};
+		D350CCF6221E75EF0047A9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
+				INFOPLIST_FILE = SampleRTCSlideBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fumiya.SampleRTCSlideBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleRTCSlideBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D350CCC1221E75EE0047A9C8 /* Build configuration list for PBXProject "SampleRTCSlideBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D350CCEC221E75EF0047A9C8 /* Debug */,
+				D350CCED221E75EF0047A9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D350CCEE221E75EF0047A9C8 /* Build configuration list for PBXNativeTarget "SampleRTCSlideBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D350CCEF221E75EF0047A9C8 /* Debug */,
+				D350CCF0221E75EF0047A9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D350CCF1221E75EF0047A9C8 /* Build configuration list for PBXNativeTarget "SampleRTCSlideBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D350CCF2221E75EF0047A9C8 /* Debug */,
+				D350CCF3221E75EF0047A9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D350CCF4221E75EF0047A9C8 /* Build configuration list for PBXNativeTarget "SampleRTCSlideBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D350CCF5221E75EF0047A9C8 /* Debug */,
+				D350CCF6221E75EF0047A9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D350CCBE221E75EE0047A9C8 /* Project object */;
+}
